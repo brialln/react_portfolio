@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+    font-family: var(--font-Montserrat); 
+    background-color: var(--color-background);
+    color: white; /* Optional: Ensure text is visible */
+    min-height: 100vh; /* Ensure the body covers the full height */
+    margin: 0; /* Remove default margin */
+}
+
+:root {
+    --color-background: #14181C;
+    --color-primary: #00E054; /* Use green for primary */
+    --color-secondary: #99AABB;
+    --font-Montserrat: 'Montserrat', sans-serif;
+}
+
+
+@theme {
+    --color-background: #14181C;
+    --color-primary: #00E054;
+    --color-secondary: #99AABB;
+
+    --font-Montserrat: 'Montserrat', sans-serif;
+  }
