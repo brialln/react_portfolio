@@ -2,7 +2,7 @@ import { Github, Linkedin, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
     return (
-        <footer className="px-6 md:px-25 py-6 md:py-10 bg-background z-1">
+        <footer className="px-6 md:px-25 py-6 md:py-10 bg-transparent fixed bottom-0 w-full">
             <div className="flex flex-col md:flex-row justify-between items-center md:items-end gap-y-6">
                 <div className="flex flex-col gap-y-2 text-center md:text-left">
                     <p>mayorbrianallen@gmail.com</p>
