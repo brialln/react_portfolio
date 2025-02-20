@@ -14,7 +14,7 @@ const Resume = () => {
             <div className="bg-background border-2 flex flex-row gap-10 justify-around p-6">
                 <div className="avatar flex flex-col items-center gap-10">
                     <div className="ring-primary ring-offset-base-100 w-40 rounded-full ring ring-offset-2">
-                        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        <img src="./2x2.jpg" />
                     </div>
 
                     <div className="pt-5">
@@ -115,6 +115,12 @@ const Resume = () => {
 
                 <div className="flex flex-col gap-10">
                     <div className="flex flex-col gap-2 justify-center items-center text-justify">
+                        <Speech size={48} color="#00E054" />
+                        <p className="font-bold">Collaboration</p>
+                        <p>Effective at working in cross-functional teams, ensuring seamless communication and teamwork.</p>
+                    </div>
+
+                    <div className="flex flex-col gap-2 justify-center items-center text-justify">
                         <User size={48} color="#00E054" />
                         <p className="font-bold">Leadership</p>
                         <p>Experienced in leading initiatives and expanding teams to enhance operational capacity.</p>
@@ -123,14 +129,10 @@ const Resume = () => {
                     <div className="flex flex-col gap-2 justify-center items-center text-justify">
                         <UsersRound size={48} color="#00E054" />
                         <p className="font-bold">Team Management</p>
-                        <p>Equipped with modern ideas and creativity for UI and UX designing via Figma.</p>
+                        <p>Experienced in managing diverse teams, fostering collaboration, and ensuring project success.</p>
                     </div>
 
-                    <div className="flex flex-col gap-2 justify-center items-center text-justify">
-                        <Speech size={48} color="#00E054" />
-                        <p className="font-bold">Collaboration</p>
-                        <p>Knowledgeable in manipulating data analytics and vizualization using R and Python.</p>
-                    </div>
+
                 </div>
             </div>
 

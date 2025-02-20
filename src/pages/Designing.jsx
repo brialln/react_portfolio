@@ -1,37 +1,57 @@
 import sample_image from "../assets/sample_image.jpg";
+import { Github } from "lucide-react";
 
 const Designing = () => {
     return (
-        <div className="relative px-6 md:px-110 my-30">
+        <div className="relative px-6 md:px-110 my-30 z-10">
             {/* Greetings and Title */}
-            <div className="flex flex-col items-start gap-2 mb-10">
+            <div className="flex flex-col items-start gap-2 mb-20">
                 <p className="font-bold text-primary text-4xl">PROJECTS</p>
-                <p className="text-lg text-gray-600">UI/UX Designs</p>
+                <p className="text-lg">UI/UX Designs</p>
             </div>
 
-            {/* Projects */}
+            {/* Design 1 */}
             <div className="bg-background border-2 mt-4 flex flex-col gap-4 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={sample_image} alt="Project" className="w-full h-64 object-cover" />
+                    <img src={sample_image} alt="Project" className="w-full h-72 object-cover" />
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <p className="text-2xl font-semibold text-center">Title</p>
+                    <p className="text-2xl font-semibold text-center">Lagusnilad Bookstore</p>
                     <p className="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam commodi reiciendis error officia 
-                        dolores saepe illo, perspiciatis ducimus quia, similique minus non architecto assumenda harum 
-                        deleniti dolor laudantium pariatur illum!
+                        Designed a simple CRUD application for a bookstore, enabling seamless user registration, book management, and efficient book search and filtering.
                     </p>
                 </div>
 
-                <div className="flex flex-row gap-10 justify-center mt-2">
-                    <i class="devicon-react-original-wordmark colored text-4xl"></i>
-                    <i class="devicon-tailwindcss-plain-wordmark colored text-4xl"></i>
-                    <i class="devicon-nodejs-plain colored text-4xl"></i>
-                    <i class="devicon-express-original-wordmark text-4xl"></i>
-                    <i class="devicon-postgresql-plain-wordmark colored text-4xl"></i>
+                <div className="pt-2 flex flex-row justify-center items-center">
+                    <a href="https://www.figma.com/design/iPlOGrVtneJABiDqIqOWKO/BOOKS-FROM-UNDERGROUND?node-id=0-1&t=AMR0xIBTL8dbD3aG-1" target="_blank" rel="noreferrer">
+                        <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+                    </a>
+                    
                 </div>
             </div>
+
+            {/* Design 2 */}
+            <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6">
+                <div className="overflow-hidden border-primary border-2">
+                    <img src={sample_image} alt="Project" className="w-full h-72 object-cover" />
+                </div>
+
+                <div className="flex flex-col gap-2">
+                    <p className="text-2xl font-semibold text-center">Coffee Insight</p>
+                    <p className="text-justify">
+                        Designed a coffee shop application that allows users to locate the nearest coffee shop, give ratings, and leave reviews using Google Maps API.
+                    </p>
+                </div>
+
+                <div className="pt-2 flex flex-row justify-center items-center">
+                    <a href="https://www.figma.com/design/XeIBXjrZAhIe2TGrGbAQFH/COFFEE-INSIGHT?node-id=0-1&t=eo8yyOpki2vRULn8-1" target="_blank" rel="noreferrer">
+                        <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+                    </a>
+
+                </div>
+            </div>
+
         </div>
     );
 };
