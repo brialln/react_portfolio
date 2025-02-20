@@ -18,7 +18,7 @@ const Resume = () => {
                     </div>
 
                     <div className="pt-5">
-                        <a href="/vite.svg" download="vite.svg" className="btn btn-soft rounded-none btn-primary">
+                        <a href="/public/vite.svg" className="btn btn-soft rounded-none btn-primary">
                             Download CV
                         </a>
                     </div>
