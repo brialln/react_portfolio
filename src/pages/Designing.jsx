@@ -2,7 +2,7 @@ import sample_image from "../assets/sample_image.jpg";
 
 const Designing = () => {
     return (
-        <div className="px-6 md:px-110 my-30">
+        <div className="relative px-6 md:px-110 my-30">
             {/* Greetings and Title */}
             <div className="flex flex-col items-start gap-2 mb-10">
                 <p className="font-bold text-primary text-4xl">PROJECTS</p>

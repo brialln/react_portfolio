@@ -17,6 +17,7 @@ body {
     --color-background: #14181C;
     --color-primary: #00E054; /* Use green for primary */
     --color-secondary: #99AABB;
+    --color-soft-color: #21302F;
     --font-Montserrat: 'Montserrat', sans-serif;
 }
 
@@ -25,6 +26,6 @@ body {
     --color-background: #14181C;
     --color-primary: #00E054;
     --color-secondary: #99AABB;
-
+    --color-soft-color: #21302F;
     --font-Montserrat: 'Montserrat', sans-serif;
   }

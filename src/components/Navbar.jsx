@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="navbar bg-background shadow-sm px-6 md:px-25 fixed z-100 border-b-1">
             <div className="flex-1">
-                <Link to="/" className="text-xl font-bold">brialln</Link>
+                <Link to="/" className="text-xl font-bold text-primary">brialln</Link>
             </div>
 
             {/* Desktop Menu */}
@@ -30,7 +30,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <button
-                className="md:hidden btn btn-ghost"
+                className="md:hidden btn btn-ghost text-2xl"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 ☰
