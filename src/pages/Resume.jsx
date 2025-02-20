@@ -18,10 +18,11 @@ const Resume = () => {
                     </div>
 
                     <div className="pt-5">
-                        <a href="/public/vite.svg" className="btn btn-soft rounded-none btn-primary">
+                        <a href="/public/Brian_Mayor_CV-2025.pdf" download className="btn btn-soft rounded-none btn-primary">
                             Download CV
                         </a>
                     </div>
+
                 </div>
 
                 <div className="flex flex-col gap-4 text-justify">
