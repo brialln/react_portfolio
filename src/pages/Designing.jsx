@@ -1,4 +1,5 @@
-import sample_image from "../assets/sample_image.jpg";
+import lagusnilad_cover from "../assets/lagusnilad_cover.png";
+import coffeeinsight_mockup from "../assets/coffeeinsight_mockup.png";
 import { Github } from "lucide-react";
 
 const Designing = () => {
@@ -13,7 +14,7 @@ const Designing = () => {
             {/* Design 1 */}
             <div className="bg-background border-2 mt-4 flex flex-col gap-4 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={sample_image} alt="Project" className="w-full h-72 object-cover" />
+                    <img src={lagusnilad_cover} alt="Project" className="w-full h-72 object-cover" />
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -34,7 +35,7 @@ const Designing = () => {
             {/* Design 2 */}
             <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={sample_image} alt="Project" className="w-full h-72 object-cover" />
+                    <img src={coffeeinsight_mockup} alt="Project" className="w-full h-72 object-cover" />
                 </div>
 
                 <div className="flex flex-col gap-2">

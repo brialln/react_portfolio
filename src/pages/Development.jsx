@@ -1,4 +1,6 @@
 import sample_image from "../assets/sample_image.jpg";
+import barangaycare_cover from "../assets/barangaycare_cover.png";
+import portfolio_cover from "../assets/portfolio_cover.png";
 import { Github } from "lucide-react";
 
 const Development = () => {
@@ -43,14 +45,18 @@ const Development = () => {
                     <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
                         <Github size={42} className="text-white hover:text-primary ease-in-out duration-300 pointer-events-auto cursor-pointer bg-soft-color p-2 border-2 rounded-full" />
                     </a>
-                    <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+
+                    <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-soft rounded-none btn-primary">View Source Code Only</button>
+                    </a>
+     
                 </div>
             </div>
 
             {/* Project 2 */}
             <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={sample_image} alt="Project" className="w-full h-72 object-cover" />
+                    <img src={barangaycare_cover} alt="Project" className="w-full h-72 object-cover" />
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -71,17 +77,27 @@ const Development = () => {
 
 
                 <div className="pt-2 flex flex-row justify-between items-center">
-                    <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/brialln/barangay_care-frontend" target="_blank" rel="noopener noreferrer">
                         <Github size={42} className="text-white hover:text-primary ease-in-out duration-300 pointer-events-auto cursor-pointer bg-soft-color p-2 border-2 rounded-full" />
                     </a>
-                    <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+
+                <div className="flex flex-row gap-5">
+                    <a href="https://barangaycare-residents-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-soft rounded-none btn-primary">View Residents' UI</button>
+                    </a>
+
+                    <a href="https://barangaycare-admin-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-soft rounded-none btn-primary">View Admin's UI</button>
+                    </a>
+                </div>
+                    
                 </div>
             </div>
 
             {/* Project 3 */}
             <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={sample_image} alt="Project" className="w-full h-72 object-cover" />
+                    <img src={portfolio_cover} alt="Project" className="w-full h-72 object-cover" />
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -107,10 +123,13 @@ const Development = () => {
 
 
                 <div className="pt-2 flex flex-row justify-between items-center">
-                    <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/brialln/react_portfolio" target="_blank" rel="noopener noreferrer">
                         <Github size={42} className="text-white hover:text-primary ease-in-out duration-300 pointer-events-auto cursor-pointer bg-soft-color p-2 border-2 rounded-full" />
                     </a>
-                    <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+
+                    <a href="https://briallnportfolio.vercel.app" target="blank" rel="noopener noreferrer">
+                        <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+                    </a>
                 </div>
             </div>
         </div>
