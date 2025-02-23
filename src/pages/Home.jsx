@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <div className="relative px-6 md:px-25 my-10">
-            <div className="flex flex-col py-10 md:py-20">
+            <div className="flex flex-col py-30">
                 <p className="w-full max-w-xs md:max-w-sm">
                     Hello, I’m Brian Mayor, Software Developer, Data Analyst, and UI/UX Designer 
                     Based in Manila, Philippines.  

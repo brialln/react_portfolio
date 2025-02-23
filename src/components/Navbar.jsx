@@ -46,8 +46,8 @@ const Navbar = () => {
                             <details>
                                 <summary>Projects</summary>
                                 <ul className="bg-base-100 rounded-t-none p-2">
-                                    <li><Link to="/projects">Development</Link></li>
-                                    <li><Link to="/projects">UI/UX Designing</Link></li>
+                                    <li><Link to="/development">Development</Link></li>
+                                    <li><Link to="/designing">UI/UX Designing</Link></li>
                                 </ul>
                             </details>
                         </li>

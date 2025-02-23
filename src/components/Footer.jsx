@@ -2,11 +2,11 @@ import { Github, Linkedin, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
     return (
-        <footer className="px-6 md:px-25 py-6 md:py-10 bg-transparent z-10 fixed bottom-0 w-full pointer-events-none">
+        <footer className="px-6 md:px-25 py-6 md:py-10 bg-transparent z-10 md:fixed bottom-0 w-full pointer-events-none">
             <div className="flex flex-col md:flex-row justify-between items-center md:items-end gap-y-6">
                 <div className="flex flex-col gap-y-2 text-center md:text-left">
-                    <p>mayorbrianallen@gmail.com</p>
-                    <p>+63 936 954 6448</p>
+                    <p className="pointer-events-auto">mayorbrianallen@gmail.com</p>
+                    <p className="pointer-events-auto">+63 936 954 6448</p>
                 </div>
 
                 <div className="flex flex-row md:flex-col items-center md:items-end gap-x-6 md:gap-y-8 cursor-pointer">

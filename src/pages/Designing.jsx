@@ -12,9 +12,9 @@ const Designing = () => {
             </div>
 
             {/* Design 1 */}
-            <div className="bg-background border-2 mt-4 flex flex-col gap-4 justify-around p-6">
+            <div className="bg-background border-2 mt-4 flex flex-col gap-6 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={lagusnilad_cover} alt="Project" className="w-full h-72 object-cover" />
+                    <img src={lagusnilad_cover} alt="Project" className="w-full h-auto object-contain"/>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -28,14 +28,13 @@ const Designing = () => {
                     <a href="https://www.figma.com/design/iPlOGrVtneJABiDqIqOWKO/BOOKS-FROM-UNDERGROUND?node-id=0-1&t=AMR0xIBTL8dbD3aG-1" target="_blank" rel="noreferrer">
                         <button className="btn btn-soft rounded-none btn-primary">View Project</button>
                     </a>
-                    
                 </div>
             </div>
 
             {/* Design 2 */}
             <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6">
                 <div className="overflow-hidden border-primary border-2">
-                    <img src={coffeeinsight_mockup} alt="Project" className="w-full h-72 object-cover" />
+                    <img src={coffeeinsight_mockup} alt="Project" className="w-full h-auto object-contain" />
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -49,7 +48,6 @@ const Designing = () => {
                     <a href="https://www.figma.com/design/XeIBXjrZAhIe2TGrGbAQFH/COFFEE-INSIGHT?node-id=0-1&t=eo8yyOpki2vRULn8-1" target="_blank" rel="noreferrer">
                         <button className="btn btn-soft rounded-none btn-primary">View Project</button>
                     </a>
-
                 </div>
             </div>
 

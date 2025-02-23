@@ -11,7 +11,7 @@ const Resume = () => {
             </div>
 
             {/* Introduction */}
-            <div className="bg-background border-2 flex flex-row gap-10 justify-around p-6">
+            <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-10 sm:gap-2 justify-around p-10">
                 <div className="avatar flex flex-col items-center gap-10">
                     <div className="ring-primary ring-offset-base-100 w-40 rounded-full ring ring-offset-2">
                         <img src="./2x2.jpg" />
@@ -47,7 +47,7 @@ const Resume = () => {
             </div>
 
             {/* Experience and Education Contents */}
-            <div className="bg-background border-2 mt-4 grid grid-cols-[1fr_1fr] gap-10 p-6 w-full max-w-screen-lg mx-auto">
+            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 p-6 w-full max-w-screen-lg mx-auto">
 
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col gap-2">
@@ -92,7 +92,7 @@ const Resume = () => {
             </div>
 
             {/* Skills Content */}
-            <div className="bg-background border-2 mt-4 flex flex-row gap-10 justify-around p-8">
+            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 justify-around p-8 w-full max-w-screen-lg mx-auto">
                 <div className="flex flex-col gap-10">
 
                     <div className="flex flex-col gap-2 justify-center items-center text-justify">
@@ -148,30 +148,34 @@ const Resume = () => {
 
             {/* Coding Content */}
             <div className="bg-background border-2 mt-4 flex flex-col gap-10 p-10">
-                <div className="flex flex-row gap-10 justify-center items-center">
-                    <i class="devicon-html5-plain-wordmark colored text-7xl"></i>      
-                    <i class="devicon-css3-plain-wordmark colored text-7xl"></i>
-                    <i class="devicon-javascript-plain colored text-7xl"></i>
-                    <i class="devicon-php-plain colored text-7xl"></i>
-                    <i class="devicon-mysql-plain-wordmark colored text-7xl"></i>
+                {/* First Row */}
+                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-10 text-center">
+                    <i className="devicon-html5-plain-wordmark colored text-7xl"></i>      
+                    <i className="devicon-css3-plain-wordmark colored text-7xl"></i>
+                    <i className="devicon-javascript-plain colored text-7xl"></i>
+                    <i className="devicon-php-plain colored text-7xl"></i>
+                    <i className="devicon-mysql-plain-wordmark colored text-7xl"></i>
                 </div>
 
-                <div className="flex flex-row gap-10 justify-center items-center">
-                    <i class="devicon-react-original-wordmark colored text-7xl"></i>   
-                    <i class="devicon-tailwindcss-plain-wordmark colored text-7xl"></i>
-                    <i class="devicon-nodejs-plain-wordmark colored text-7xl"></i> 
-                    <i class="devicon-express-original-wordmark text-7xl"></i>
-                    <i class="devicon-postgresql-plain-wordmark colored text-7xl"></i>
+                {/* Second Row */}
+                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-10 text-center">
+                    <i className="devicon-react-original-wordmark colored text-7xl"></i>   
+                    <i className="devicon-tailwindcss-plain-wordmark colored text-7xl"></i>
+                    <i className="devicon-nodejs-plain-wordmark colored text-7xl"></i> 
+                    <i className="devicon-express-original-wordmark text-7xl"></i>
+                    <i className="devicon-postgresql-plain-wordmark colored text-7xl"></i>
                 </div>
 
-                <div className="flex flex-row gap-10 justify-center items-center">
-                    <i class="devicon-python-plain-wordmark colored text-7xl"></i>
-                    <i class="devicon-r-plain colored-wordmark text-7xl"></i>
-                    <i class="devicon-figma-plain colored text-7xl"></i>
-                    <i class="devicon-git-plain-wordmark colored text-7xl"></i>
-                    <i class="devicon-github-original-wordmark text-7xl"></i>
+                {/* Third Row */}
+                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-10 text-center">
+                    <i className="devicon-python-plain-wordmark colored text-7xl"></i>
+                    <i className="devicon-r-plain colored-wordmark text-7xl"></i>
+                    <i className="devicon-figma-plain colored text-7xl"></i>
+                    <i className="devicon-git-plain-wordmark colored text-7xl"></i>
+                    <i className="devicon-github-original-wordmark text-7xl"></i>
                 </div>
             </div>
+
         </div>
     );
 };
