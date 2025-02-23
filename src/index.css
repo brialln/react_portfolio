@@ -7,7 +7,7 @@
 
 body {
     font-family: var(--font-Montserrat); 
-    background-color: var(--color-background);
+    background-color: var(--color-background) !important;
     color: white; /* Optional: Ensure text is visible */
     min-height: 100vh; /* Ensure the body covers the full height */
     margin: 0; /* Remove default margin */

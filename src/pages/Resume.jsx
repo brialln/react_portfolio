@@ -11,13 +11,13 @@ const Resume = () => {
             </div>
 
             {/* Introduction */}
-            <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-10 sm:gap-2 justify-around p-10">
-                <div className="avatar flex flex-col items-center gap-10">
+            <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-8 justify-around p-10">
+                <div className="avatar flex flex-col items-center gap-8">
                     <div className="ring-primary ring-offset-base-100 w-40 rounded-full ring ring-offset-2">
                         <img src="./2x2.jpg" />
                     </div>
 
-                    <div className="pt-5">
+                    <div>
                         <a href="/public/Brian_Mayor_CV-2025.pdf" download className="btn btn-soft rounded-none btn-primary">
                             Download CV
                         </a>
@@ -35,19 +35,11 @@ const Resume = () => {
 
             {/* Experience and Education Titles */}
             <div className="flex flex-col gap-4 mt-20">
-                <div className="flex flex-row justify-between">
-                    <div className="flex flex-col gap-4">
-                            <p className="font-bold text-primary text-2xl">Experience</p>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                            <p className="font-bold text-primary text-2xl">Education</p>
-                    </div>
-                </div>
+                <p className="font-bold text-primary text-2xl">Experience and Education</p>
             </div>
 
             {/* Experience and Education Contents */}
-            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 p-6 w-full max-w-screen-lg mx-auto">
+            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 p-10 w-full max-w-screen-lg mx-auto">
 
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col gap-2">
@@ -80,19 +72,12 @@ const Resume = () => {
 
             {/* Skills Title */}
             <div className="flex flex-col gap-4 mt-20">
-                <div className="flex flex-row justify-between">
-                    <div className="flex flex-col gap-4">
-                            <p className="font-bold text-primary text-2xl">Hard Skills</p>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                            <p className="font-bold text-primary text-2xl">Soft Skills</p>
-                    </div>
-                </div>
+                <p className="font-bold text-primary text-2xl">Hard and Soft Skills</p>
             </div>
 
+
             {/* Skills Content */}
-            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 justify-around p-8 w-full max-w-screen-lg mx-auto">
+            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 justify-around p-10 w-full max-w-screen-lg mx-auto">
                 <div className="flex flex-col gap-10">
 
                     <div className="flex flex-col gap-2 justify-center items-center text-justify">
@@ -139,11 +124,7 @@ const Resume = () => {
 
             {/* Coding Skills */}
             <div className="flex flex-col gap-4 mt-20">
-                <div className="flex flex-row justify-between">
-                    <div className="flex flex-col gap-4">
-                        <p className="font-bold text-primary text-2xl">Knowledge and Skills</p>
-                    </div>
-                </div>
+                <p className="font-bold text-primary text-2xl">Knowledge and Coding</p>
             </div>
 
             {/* Coding Content */}

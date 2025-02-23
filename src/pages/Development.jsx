@@ -81,7 +81,7 @@ const Development = () => {
                         <Github size={42} className="text-white hover:text-primary ease-in-out duration-300 pointer-events-auto cursor-pointer bg-soft-color p-2 border-2 rounded-full" />
                     </a>
 
-                <div className="flex flex-row gap-5">
+                <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
                     <a href="https://barangaycare-residents-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-soft rounded-none btn-primary">View Residents' UI</button>
                     </a>
