@@ -40,14 +40,14 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {isOpen && (
-                <div className="absolute top-16 right-6 bg-base-100 shadow-lg rounded-lg w-48 md:hidden">
+                <div className="absolute top-16 right-6 shadow-lg rounded-lg w-48 md:hidden" style={{ backgroundColor: 'var(--color-background)' }}>
                     <ul className="menu p-2">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/resume">Resume</Link></li>
                         <li>
                             <details>
                                 <summary>Projects</summary>
-                                <ul className="bg-base-100 rounded-t-none p-2">
+                                <ul className="bg-base-100 rounded-t-none p-2" style={{ backgroundColor: 'var(--color-soft-color)' }}>
                                     <li><Link to="/development">Development</Link></li>
                                     <li><Link to="/designing">UI/UX Designing</Link></li>
                                 </ul>
