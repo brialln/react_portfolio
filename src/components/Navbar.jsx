@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="navbar bg-background shadow-sm px-6 md:px-25 fixed z-100 border-b-1">
+        <nav className="navbar shadow-sm px-6 md:px-25 fixed z-100 border-b-1" style={{ backgroundColor: 'var(--color-background)' }}>
             <div className="flex-1">
                 <Link to="/" className="text-xl font-bold text-primary">brialln</Link>
             </div>
@@ -18,7 +18,9 @@ const Navbar = () => {
                     <li>
                         <details>
                             <summary>Projects</summary>
-                            <ul className="bg-base-100 rounded-t-none p-2">
+                            <ul
+                            className="rounded-t-none p-2"
+                            style={{ backgroundColor: 'var(--color-soft-color)' }}>
                                 <li><Link to="/development">Development</Link></li>
                                 <li><Link to="/designing">UI/UX Designing</Link></li>
                             </ul>
