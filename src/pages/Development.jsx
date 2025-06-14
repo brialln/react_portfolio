@@ -30,17 +30,14 @@ const Development = () => {
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2">
-                    <p className="border-primary border-2 px-4 py-2 text-center">React</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center">TailwindCSS</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center">NodeJS</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center">ExpressJS</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center">PostgreSQL</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center">DaisyUI</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center">JavaScript</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">React</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">TailwindCSS</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">NodeJS</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">ExpressJS</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">PostgreSQL</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">DaisyUI</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">JavaScript</p>
                 </div>
-
-
-
 
                 <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-between items-center">
                     <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
@@ -68,11 +65,11 @@ const Development = () => {
                 </div>
 
 
-                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2 text-center">
-                    <p className="border-primary border-2 px-4 py-2">HTML5</p>
-                    <p className="border-primary border-2 px-4 py-2">CSS3</p>
-                    <p className="border-primary border-2 px-4 py-2">JavaScript</p>
-                    <p className="border-primary border-2 px-4 py-2">ApexChartsJS</p>
+                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2">
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">HTML5</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">CSS3</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">JavaScript</p>
+                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">ApexChartsJS</p>
                 </div>
 
 
@@ -107,13 +104,13 @@ const Development = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2 text-center">
-                        <p className="border-primary border-2 px-4 py-2">React</p>
-                        <p className="border-primary border-2 px-4 py-2">TailwindCSS</p>
-                        <p className="border-primary border-2 px-4 py-2">DaisyUI</p>
-                        <p className="border-primary border-2 px-4 py-2">Nodemailer</p>
-                        <p className="border-primary border-2 px-4 py-2">JavaScript</p>
-                        <p className="border-primary border-2 px-4 py-2">Framer Motion</p>
+                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2">
+                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">React</p>
+                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">TailwindCSS</p>
+                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">DaisyUI</p>
+                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">Nodemailer</p>
+                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">JavaScript</p>
+                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">Framer Motion</p>
                     </div>
 
 
