@@ -30,14 +30,18 @@ const Development = () => {
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2">
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">React</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">TailwindCSS</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">NodeJS</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">ExpressJS</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">PostgreSQL</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">DaisyUI</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">JavaScript</p>
+                    {["React", "TailwindCSS", "NodeJS", "ExpressJS", "PostgreSQL", "DaisyUI", "JavaScript"].map((tech) => (
+                        <button
+                        key={tech}
+                        className="border-2 border-primary px-4 py-2 text-center w-full h-10 flex items-center justify-center text-sm text-wrap break-words hover:bg-primary hover:text-white transition cursor-pointer whitespace-normal overflow-hidden"
+                        >
+                        {tech}
+                        </button>
+                    ))}
                 </div>
+
+
+
 
                 <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-between items-center">
                     <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
@@ -64,14 +68,16 @@ const Development = () => {
                     </p>
                 </div>
 
-
                 <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2">
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">HTML5</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">CSS3</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">JavaScript</p>
-                    <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">ApexChartsJS</p>
+                    {["HTML5", "CSS3", "JavaScript"].map((tech) => (
+                        <button
+                        key={tech}
+                        className="border-2 border-primary px-4 py-2 text-center w-full h-10 flex items-center justify-center text-sm text-wrap break-words hover:bg-primary hover:text-white transition cursor-pointer whitespace-normal overflow-hidden"
+                        >
+                        {tech}
+                        </button>
+                    ))}
                 </div>
-
 
                 <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-between items-center">
                     <a href="https://github.com/brialln/barangay_care-frontend" target="_blank" rel="noopener noreferrer">
@@ -104,14 +110,16 @@ const Development = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2">
-                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">React</p>
-                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">TailwindCSS</p>
-                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">DaisyUI</p>
-                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">Nodemailer</p>
-                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">JavaScript</p>
-                        <p className="border-primary border-2 px-4 py-2 text-center break-words whitespace-normal overflow-hidden">Framer Motion</p>
-                    </div>
+                <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-2 items-center">
+                    {["React", "TailwindCSS", "DaisyUI", "Nodemailer", "JavaScript", "Framer Motion"].map((tech) => (
+                        <button
+                        key={tech}
+                        className="border-2 border-primary px-4 py-2 text-center w-full h-10 flex items-center justify-center text-sm text-wrap break-words hover:bg-primary hover:text-white transition cursor-pointer whitespace-normal overflow-hidden"
+                        >
+                        {tech}
+                        </button>
+                    ))}
+                </div>
 
 
                 <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-between items-center">
