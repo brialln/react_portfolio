@@ -14,7 +14,7 @@ const Resume = () => {
             <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-8 justify-around p-10">
                 <div className="avatar flex flex-col items-center gap-8">
                     <div className="ring-primary ring-offset-base-100 w-40 rounded-full ring ring-offset-2">
-                        <img src="./2x2.jpg" />
+                        <img src="./Profile-Picture-Barong.jpg" />
                     </div>
 
                     <div>
@@ -35,36 +35,59 @@ const Resume = () => {
 
             {/* Experience and Education Titles */}
             <div className="flex flex-col gap-4 mt-20">
-                <p className="font-bold text-primary text-2xl">Experience and Education</p>
+                <p className="font-bold text-primary text-2xl">Relevant Experience</p>
             </div>
 
-            {/* Experience and Education Contents */}
-            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 p-10 w-full max-w-screen-lg mx-auto">
+            {/* Experience Contents */}
+            <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto">
+                    <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-2">
+                            <p className="text-sm text-gray-300">Sept 2023 - Feb 2024</p>
+                            <p className="font-bold">IT Department - The National Teachers College - Manila</p>
+                            <p className="text-sm font-bold">Student Assistant</p>
+                        </div>
 
-                <div className="flex flex-col gap-4">
-                    <div className="flex flex-col gap-2">
-                        <p className="text-sm text-gray-300">Sept 2023 - Feb 2024</p>
-                        <p className="font-bold">IT Department - The National Teachers College - Manila</p>
-                        <p className="text-sm font-bold">Student Assistant</p>
+                        <div className="flex flex-col gap-2 text-sm text-justify">
+                            <p>Exposed in the professional IT workplace set-up.</p>
+                            <p>Assisted employees with IT-related issues and concerns.</p>
+                            <p>Aided IT staffs in handling school hardware possessions.</p>
+                        </div>
                     </div>
 
-                    <div className="flex flex-col gap-2 text-sm text-justify">
-                        <p>Exposed in the professional IT workplace set-up.</p>
-                        <p>Assisted employees with IT-related issues and concerns.</p>
-                        <p>Aided IT staffs in handling school hardware possessions.</p>
-                    </div>
-                </div>
+                    <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-2">
+                            <p className="text-sm text-gray-300">Mar 2025 - June 2025</p>
+                            <p className="font-bold">IT Department - Concentrix Spark Place Cubao</p>
+                            <p className="text-sm font-bold">IT Operations Representative Intern</p>
+                        </div>
 
+                        <div className="flex flex-col gap-2 text-sm text-justify">
+                            <p>Performed system re-imaging, group policy, and domain configuration using both manual tools (sysdm.cpl) and batch file automation for efficiency.</p>
+                            <p>Executed user and system management tasks via tools such as lusrmgr.msc, sysdm.cpl, and various command-line utilities (e.g., ipconfig, tsdiscon).</p>
+                            <p>Installed, upgraded, and troubleshot hardware components including RAM modules, peripherals, and internal PC configurations.</p>
+                            <p>Provided hands-on assistance with PC setup, cable management, and identification of hardware types.</p>
+                            <p>Delivered front-line support for customer/client technical issues and facilitated accurate encoding of returned or replaced IT assets.</p>
+                        </div>
+                    </div>
+            </div>
+
+            {/* Education Titles */}
+            <div className="flex flex-col gap-4 mt-20">
+                <p className="font-bold text-primary text-2xl">Education</p>
+            </div>
+
+            {/* Education Contents */}
+            <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto">
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col gap-2">
-                        <p className="text-sm text-gray-300">2021 - 2025</p>
+                        <p className="text-sm text-gray-300">Sept 2021 - Aug 2025</p>
                         <p className="font-bold">The National Teachers College - Manila</p>
                         <p className="text-sm font-bold">Bachelor of Science in Information Technology</p>
                     </div>
 
                     <div className="flex flex-col gap-2 text-sm text-justify">
                         <p>Developed mobile-web software applications.</p>
-                        <p>Collaborated with peers about academic.</p>
+                        <p>Collaborated with peers about academic tasks.</p>
                         <p>Learnt multiple usage of software technologies.</p>
                     </div>
                 </div>
