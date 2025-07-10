@@ -13,20 +13,20 @@ const Navbar = () => {
             {/* Desktop Menu */}
             <div className="hidden md:flex">
                 <ul className="menu menu-horizontal px-1 gap-x-6">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                    <li><Link to="/" className='hover:text-primary'>Home</Link></li>
+                    <li><Link to="/resume" className='hover:text-primary'>Resume</Link></li>
                     <li>
                         <details>
-                            <summary>Projects</summary>
+                            <summary className='hover:text-primary'>Projects</summary>
                             <ul
-                            className="rounded-t-none p-2"
-                            style={{ backgroundColor: 'var(--color-soft-color)' }}>
-                                <li><Link to="/development">Development</Link></li>
-                                <li><Link to="/designing">UI/UX Designing</Link></li>
+                            className="rounded-none p-2 shadow-lg"
+                            style={{ backgroundColor: 'var(--color-background)' }}>
+                                <li><Link to="/development" className='hover:text-primary'>Development</Link></li>
+                                <li><Link to="/designing" className='hover:text-primary'>UI/UX Designing</Link></li>
                             </ul>
                         </details>
                     </li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/contact" className='hover:text-primary'>Contact</Link></li>
                 </ul>
             </div>
 
@@ -42,18 +42,18 @@ const Navbar = () => {
             {isOpen && (
                 <div className="absolute top-16 right-6 shadow-lg rounded-lg w-48 md:hidden" style={{ backgroundColor: 'var(--color-background)' }}>
                     <ul className="menu p-2">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/resume">Resume</Link></li>
+                        <li><Link to="/" className='hover:text-primary'>Home</Link></li>
+                        <li><Link to="/resume" className='hover:text-primary'>Resume</Link></li>
                         <li>
                             <details>
                                 <summary>Projects</summary>
                                 <ul className="bg-base-100 rounded-t-none p-2" style={{ backgroundColor: 'var(--color-soft-color)' }}>
-                                    <li><Link to="/development">Development</Link></li>
-                                    <li><Link to="/designing">UI/UX Designing</Link></li>
+                                    <li><Link to="/development" className='hover:text-primary'>Development</Link></li>
+                                    <li><Link to="/designing" className='hover:text-primary'>UI/UX Designing</Link></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/contact" className='hover:text-primary'>Contact</Link></li>
                     </ul>
                 </div>
             )}
