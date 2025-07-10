@@ -14,7 +14,7 @@ const Resume = () => {
             <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-8 justify-around p-10">
                 <div className="avatar flex flex-col items-center gap-8">
                     <div className="ring-primary ring-offset-base-100 w-40 rounded-full ring ring-offset-2">
-                        <img src="./Profile-Picture-Barong.jpg" />
+                        <img src="./Profile-Picture-Barong.jpg" className="w-full h-full object-cover" alt="Profile" />
                     </div>
 
                     <div>
