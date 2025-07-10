@@ -5,7 +5,7 @@ import { Github } from "lucide-react";
 
 const Development = () => {
     return (
-        <div className="relative px-6 md:px-110 my-30 z-10">
+        <div className="relative px-6 md:px-100 my-30 z-10">
             {/* Greetings and Title */}
             <div className="flex flex-col items-start gap-2 mb-20">
                 <p className="font-bold text-primary text-4xl">PROJECTS</p>

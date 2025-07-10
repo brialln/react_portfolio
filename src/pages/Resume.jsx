@@ -3,7 +3,7 @@ import { Code, Figma, ChartArea, UsersRound, User, Speech} from "lucide-react"
 
 const Resume = () => {
     return (
-        <div className="relative px-6 md:px-110 my-30 z-10">
+        <div className="relative px-6 md:px-100 my-30 z-10">
             {/* Greetings and Title */}
             <div className="flex flex-col items-start gap-4 mb-15">
                 <p className="font-bold text-primary text-4xl">RESUME</p>
