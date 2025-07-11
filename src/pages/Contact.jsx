@@ -59,7 +59,7 @@ const Contact = () => {
                         <textarea id="message" name="message" className="border-2 p-2 h-40" onChange={handleChange} value={formData.message} required />
                     </div>
 
-                    <button type="submit" className="btn btn-soft rounded-none btn-primary cursor-pointer">Send Message</button>
+                    <button type="submit" className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">Send Message</button>
                 </form>
             </div>
         </div>

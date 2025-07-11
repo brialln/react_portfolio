@@ -49,7 +49,7 @@ const Development = () => {
                     </a>
 
                     <a href="https://github.com/brialln/simple_crud-application" target="_blank" rel="noopener noreferrer">
-                        <button className="btn btn-soft rounded-none btn-primary">View Source Code Only</button>
+                        <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Source Code Only</button>
                     </a>
     
                 </div>
@@ -86,11 +86,11 @@ const Development = () => {
 
                 <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
                     <a href="https://barangaycare-residents-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
-                        <button className="btn btn-soft rounded-none btn-primary">View Residents' UI</button>
+                        <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Residents' UI</button>
                     </a>
 
                     <a href="https://barangaycare-admin-frontend.vercel.app" target="_blank" rel="noopener noreferrer">
-                        <button className="btn btn-soft rounded-none btn-primary">View Admin's UI</button>
+                        <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Admin's UI</button>
                     </a>
                 </div>
                     
@@ -128,7 +128,7 @@ const Development = () => {
                     </a>
 
                     <a href="https://briallnportfolio.vercel.app" target="blank" rel="noopener noreferrer">
-                        <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+                        <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Project</button>
                     </a>
                 </div>
             </div>

@@ -26,7 +26,7 @@ const Designing = () => {
 
                 <div className="pt-2 flex flex-row justify-center items-center">
                     <a href="https://www.figma.com/design/iPlOGrVtneJABiDqIqOWKO/BOOKS-FROM-UNDERGROUND?node-id=0-1&t=AMR0xIBTL8dbD3aG-1" target="_blank" rel="noreferrer">
-                        <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+                        <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Project</button>
                     </a>
                 </div>
             </div>
@@ -46,7 +46,7 @@ const Designing = () => {
 
                 <div className="pt-2 flex flex-row justify-center items-center">
                     <a href="https://www.figma.com/design/XeIBXjrZAhIe2TGrGbAQFH/COFFEE-INSIGHT?node-id=0-1&t=eo8yyOpki2vRULn8-1" target="_blank" rel="noreferrer">
-                        <button className="btn btn-soft rounded-none btn-primary">View Project</button>
+                        <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Project</button>
                     </a>
                 </div>
             </div>

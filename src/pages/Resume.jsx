@@ -18,7 +18,7 @@ const Resume = () => {
                     </div>
 
                     <div>
-                        <a href="/public/Brian_Mayor_CV-2025.pdf" download className="btn btn-soft rounded-none btn-primary">
+                        <a href="/public/Brian_Mayor_CV-2025.pdf" download className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">
                             Download CV
                         </a>
                     </div>
