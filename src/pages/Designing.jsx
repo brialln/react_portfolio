@@ -25,7 +25,7 @@ const Designing = () => {
                 </div>
 
                 <div className="pt-2 flex flex-row justify-center items-center">
-                    <a href="https://www.figma.com/design/iPlOGrVtneJABiDqIqOWKO/BOOKS-FROM-UNDERGROUND?node-id=0-1&t=AMR0xIBTL8dbD3aG-1" target="_blank" rel="noreferrer">
+                    <a href="https://www.figma.com/design/XWcqog6mX0ygFA98BcxAQG/LAGUSNILAD--BOOKS-FROM-UNDERGROUND?m=auto&t=kGznyUeqZZais2Fg-6" target="_blank" rel="noreferrer">
                         <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Project</button>
                     </a>
                 </div>
@@ -45,7 +45,7 @@ const Designing = () => {
                 </div>
 
                 <div className="pt-2 flex flex-row justify-center items-center">
-                    <a href="https://www.figma.com/design/XeIBXjrZAhIe2TGrGbAQFH/COFFEE-INSIGHT?node-id=0-1&t=eo8yyOpki2vRULn8-1" target="_blank" rel="noreferrer">
+                    <a href="https://www.figma.com/design/W5kczHzRIckJ5eQU9K5YD9/COFFEE-INSIGHT?m=auto&t=kGznyUeqZZais2Fg-6" target="_blank" rel="noreferrer">
                         <button className="btn bg-soft-color border-none shadow-none rounded-none btn-primary text-primary hover:bg-primary hover:text-white">View Project</button>
                     </a>
                 </div>
