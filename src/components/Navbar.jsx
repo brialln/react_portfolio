@@ -47,7 +47,7 @@ const Navbar = () => {
                         <li>
                             <details>
                                 <summary>Projects</summary>
-                                <ul className="bg-base-100 rounded-t-none p-2" style={{ backgroundColor: 'var(--color-soft-color)' }}>
+                                <ul className="bg-base-100 rounded-t-none p-2" style={{ backgroundColor: 'var(--color-background)' }}>
                                     <li><Link to="/development" className='hover:text-primary'>Development</Link></li>
                                     <li><Link to="/designing" className='hover:text-primary'>UI/UX Designing</Link></li>
                                 </ul>
