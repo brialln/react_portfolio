@@ -12,7 +12,7 @@ const Designing = () => {
             </div>
 
             {/* Design 1 */}
-            <div className="bg-background border-2 mt-4 flex flex-col gap-6 justify-around p-6">
+            <div className="bg-background border-2 mt-4 flex flex-col gap-6 justify-around p-6 overflow-hidden">
                 <div className="overflow-hidden border-primary border-2">
                     <img src={lagusnilad_cover} alt="Project" className="w-full h-auto object-contain"/>
                 </div>
@@ -32,7 +32,7 @@ const Designing = () => {
             </div>
 
             {/* Design 2 */}
-            <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6">
+            <div className="bg-background border-2 mt-20 flex flex-col gap-4 justify-around p-6 overflow-hidden">
                 <div className="overflow-hidden border-primary border-2">
                     <img src={coffeeinsight_mockup} alt="Project" className="w-full h-auto object-contain" />
                 </div>

@@ -11,7 +11,7 @@ const Resume = () => {
             </div>
 
             {/* Introduction */}
-            <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-8 justify-around p-10">
+            <div className="bg-background border-2 md:flex md:flex-row flex flex-col md:gap-8 justify-around p-10 overflow-hidden">
                 <div className="avatar flex flex-col items-center gap-8">
                     <div className="ring-primary ring-offset-base-100 w-40 rounded-full ring ring-offset-2">
                         <img src="./Profile-Picture-Barong.jpg" className="w-full h-full object-cover" alt="Profile" />
@@ -39,7 +39,7 @@ const Resume = () => {
             </div>
 
             {/* Experience Contents */}
-            <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto">
+            <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto overflow-hidden">
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
                             <p className="text-sm text-gray-300">Sept 2023 - Feb 2024</p>
@@ -77,7 +77,7 @@ const Resume = () => {
             </div>
 
             {/* Education Contents */}
-            <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto">
+            <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto overflow-hidden">
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col gap-2">
                         <p className="text-sm text-gray-300">Sept 2021 - Aug 2025</p>
@@ -100,7 +100,7 @@ const Resume = () => {
 
 
             {/* Skills Content */}
-            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 justify-around p-10 w-full max-w-screen-lg mx-auto">
+            <div className="bg-background border-2 mt-4 grid sm:grid-cols-1 md:grid-cols-2 gap-10 justify-around overflow-hidden p-10 w-full max-w-screen-lg mx-auto">
                 <div className="flex flex-col gap-10">
 
                     <div className="flex flex-col gap-2 justify-center items-center text-justify">
@@ -151,7 +151,7 @@ const Resume = () => {
             </div>
 
             {/* Coding Content */}
-            <div className="bg-background border-2 mt-4 flex flex-col gap-10 p-10">
+            <div className="bg-background border-2 mt-4 flex flex-col gap-10 p-10 overflow-hidden">
                 {/* First Row */}
                 <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-10 text-center">
                     <i className="devicon-html5-plain-wordmark colored text-7xl"></i>      

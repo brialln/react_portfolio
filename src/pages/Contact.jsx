@@ -35,7 +35,7 @@ const Contact = () => {
                 <p>Get in touch with me</p>
             </div>
 
-            <div className="bg-background border-2 mt-4 flex flex-col gap-4 justify-around p-6">
+            <div className="bg-background border-2 mt-4 flex flex-col gap-4 justify-around p-6 overflow-hidden">
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 {status && (
                     <div className={`p-2 text-center text-sm font-semibold ${status === "Message sent!" ? "bg-soft-color text-red-500" : "bg-soft-color text-primary"}`}>

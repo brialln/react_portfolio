@@ -13,7 +13,7 @@ const Development = () => {
             </div>
 
             {/* Project 1 */}
-            <div className="bg-background border-2 mt-4 flex flex-col gap-6 justify-around p-6">
+            <div className="bg-background border-2 mt-4 flex flex-col gap-6 justify-around p-6 overflow-hidden">
                 <div className="overflow-hidden border-primary border-2">
                     <img 
                         src={simplecrud_cover} 
@@ -56,7 +56,7 @@ const Development = () => {
             </div>
 
             {/* Project 2 */}
-            <div className="bg-background border-2 mt-20 flex flex-col gap-6 justify-around p-6">
+            <div className="bg-background border-2 mt-20 flex flex-col gap-6 justify-around p-6 overflow-hidden">
                 <div className="overflow-hidden border-primary border-2">
                     <img src={barangaycare_cover} alt="Project" className="w-full h-auto object-contain" />
                 </div>
@@ -98,7 +98,7 @@ const Development = () => {
             </div>
 
             {/* Project 3 */}
-            <div className="bg-background border-2 mt-20 flex flex-col gap-6 justify-around p-6">
+            <div className="bg-background border-2 mt-20 flex flex-col gap-6 justify-around p-6 overflow-hidden">
                 <div className="overflow-hidden border-primary border-2">
                     <img src={portfolio_cover} alt="Project" className="w-full h-auto object-contain" />
                 </div>
