@@ -42,20 +42,6 @@ const Resume = () => {
             <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto overflow-hidden">
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
-                            <p className="text-sm text-gray-300">Sept 2023 - Feb 2024</p>
-                            <p className="font-bold">IT Department - The National Teachers College - Manila</p>
-                            <p className="text-sm font-bold">Student Assistant</p>
-                        </div>
-
-                        <div className="flex flex-col gap-2 text-sm text-justify">
-                            <p>Exposed in the professional IT workplace set-up.</p>
-                            <p>Assisted employees with IT-related issues and concerns.</p>
-                            <p>Aided IT staffs in handling school hardware possessions.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                        <div className="flex flex-col gap-2">
                             <p className="text-sm text-gray-300">Mar 2025 - June 2025</p>
                             <p className="font-bold">IT Department - Concentrix Spark Place Cubao</p>
                             <p className="text-sm font-bold">IT Operations Representative Intern</p>
@@ -69,6 +55,22 @@ const Resume = () => {
                             <p>Delivered front-line support for customer/client technical issues and facilitated accurate encoding of returned or replaced IT assets.</p>
                         </div>
                     </div>
+                    
+                    <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-2">
+                            <p className="text-sm text-gray-300">Sept 2023 - Feb 2024</p>
+                            <p className="font-bold">IT Department - The National Teachers College - Manila</p>
+                            <p className="text-sm font-bold">Student Assistant</p>
+                        </div>
+
+                        <div className="flex flex-col gap-2 text-sm text-justify">
+                            <p>Exposed in the professional IT workplace set-up.</p>
+                            <p>Assisted employees with IT-related issues and concerns.</p>
+                            <p>Aided IT staffs in handling school hardware possessions.</p>
+                        </div>
+                    </div>
+
+
             </div>
 
             {/* Education Titles */}
