@@ -42,7 +42,7 @@ const Resume = () => {
             <div className="bg-background border-2 mt-4 grid gap-10 p-10 w-full max-w-screen-lg mx-auto overflow-hidden">
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
-                            <p className="text-sm text-gray-300">Mar 2025 - June 2025</p>
+                            <p className="text-sm text-gray-300">Mar 2025 - Jun 2025</p>
                             <p className="font-bold">IT Department - Concentrix Spark Place Cubao</p>
                             <p className="text-sm font-bold">IT Operations Representative Intern</p>
                         </div>
